@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.perfei.taolu.MainActivity">
+    <Button
+        android:id="@+id/get_imge"
+        android:onClick="mClick"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/get_image"
+    android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detect"
+        android:onClick="mClick"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:id="@+id/detect"
+        android:layout_toLeftOf="@+id/get_imge"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="走过最远的路==>"
+        android:layout_toLeftOf="@+id/detect"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/detect"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_alignLeft="@+id/mphoto"
+        android:layout_alignStart="@+id/mphoto"
+        android:layout_marginBottom="10dp"/>
+    <ImageView
+        android:id="@+id/mphoto"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/we"
+        android:layout_above="@+id/get_imge"
+        android:layout_alignParentTop="true" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:id="@+id/waiting">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/age_and_gender"
+            android:visibility="invisible"
+            android:textColor="#0b98f5"
+            android:text="18"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:background="@drawable/hint"
+            android:drawableLeft="@drawable/male"/>
+    </FrameLayout>
+</RelativeLayout>

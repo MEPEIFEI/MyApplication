@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imoocnews/imoocnews.iml" filepath="$PROJECT_DIR$/imoocnews/imoocnews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shidai/shidai.iml" filepath="$PROJECT_DIR$/shidai/shidai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taolu/taolu.iml" filepath="$PROJECT_DIR$/taolu/taolu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/撩妹爱啪啪/撩妹爱啪啪.iml" filepath="$PROJECT_DIR$/撩妹爱啪啪/撩妹爱啪啪.iml" />
+    </modules>
+  </component>
+</project>

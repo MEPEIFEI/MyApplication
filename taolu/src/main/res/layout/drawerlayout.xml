@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/id_drawerlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+    <include
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        layout="@layout/activity_main"></include>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/id_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#3f53b5"
+        android:orientation="vertical">
+
+        <com.perfei.taolu.utils.CircleImageView
+            android:id="@+id/civ"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/touxiang"
+            app:border_color="#ffffff"
+            app:border_width="5dp"
+            />
+
+
+
+
+
+            <TextView
+                android:id="@+id/mname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:text="admin"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                />
+
+
+        <ListView
+            android:id="@+id/id_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:cacheColorHint="#00000000"
+            android:footerDividersEnabled="false"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent">
+        </ListView>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

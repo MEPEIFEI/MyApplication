@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="3dip"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="包材"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="边油"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="胶水"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="685991"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="668070"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="663963"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="B"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="685991"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="662845"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="685793"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="E"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="666026"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:text="660582"
+                android:gravity="center"
+                android:autoLink="phone"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="660582"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="F1"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="667588"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="661660"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="661660"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="F2"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="664757"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="614209"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="665027"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="G1"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="681501"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="619970"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="619970"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="G2"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="664425"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="660403"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="660403"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="W1"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="696666"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="666789"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="666789"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="W2"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="669680"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="666647"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:background="#00000000"
+                android:gravity="center"
+                android:onClick="ToPhone"
+                android:text="666647"
+                android:textSize="25sp" />
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
